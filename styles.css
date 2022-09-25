@@ -46,3 +46,62 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.page-content {
+  display: flex;
+  background-color: brown;
+  padding: 5px;
+  width: 60vw;
+  height: 75vh;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(207, 49, 228);
+  width: 37.5%;
+  height: 100;
+  align-items: stretch;
+  min-width: 200px;
+  min-height: 500px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(54, 162, 212);
+  width: 62.5%;
+  height: 100;
+  min-width: 300px;
+  min-height: 500px;
+}
+
+.header, .form-container,
+.submit-container{
+  flex: 1;
+}
+
+.footer {
+  flex: 0 1 auto;
+
+}
+
+.project-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 1 2em;
+  font-size: 50px;
+  background-color: rgb(0,0,0,0.3);
+  margin-top: max(20vh, 120px);
+}
