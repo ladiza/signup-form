@@ -83,7 +83,7 @@ body {
 .right-panel {
   display: flex;
   flex-direction: column;
-  background-color: antiquewhite;
+  background-color: #F4F5F7;
   width: 62.5%;
   height: 100;
   min-width: 300px;
@@ -132,13 +132,12 @@ div.form-element input {
   min-width: 220px;
   height: 2vh;
   border-radius: 7px;
-  border: 1px solid rgb(211, 198, 161);
-  background-color: rgb(250, 239, 224);
+  border: 1px solid #d4d4d4;
+  background-color: #f8f8f8;
 }
 
 .form-element input:focus {
   outline-style: none;
-  background-color: rgb(247, 239, 231);
   box-shadow: 2px 2px 4px 1px #b1b1b1;
 }
 
@@ -189,7 +188,7 @@ div.log-in > a {
   display: flex;
   flex-direction: column;
   box-shadow: 0px 5px 3px -3px #b1b1b1;
-  background-color: rgb(250, 239, 224);
+  background-color: #f8f8f8;
 }
 
 .header {
